@@ -1,9 +1,7 @@
 
-# PharmaChain Architecture - Build Ethereum Dapp for Tracking Items through Supply Chain
+# PharmaChain Architecture - Ethereum Dapp for Tracking Items through Supply Chain
 
-## Part 1: Plan the project with write-ups
-
-### 1.1 Project write-up - UML
+### UML
 
 Definitions:
 
@@ -32,8 +30,7 @@ Choosen supply chain: Medicine
 
 ![Class_Diagram](docs/Class_Diagram.png)
 
-
-### 1.2 Project write-up - Libraries
+### Libraries
 
 If libraries are used, the project write-up discusses why these libraries were adopted.
 
@@ -41,7 +38,7 @@ If libraries are used, the project write-up discusses why these libraries were a
  - truffle v5.4.13
  - web3 v1.2.4
 
-### 1.3 Project write-up - IPFS
+### 1.3 IPFS
 
 `IPFS was not used`
 
