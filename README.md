@@ -18,19 +18,19 @@ Choosen supply chain: Medicine
 
 #### Activity Diagram
 
-![](docs/activity_diagram.png)
+![Activity_Diagram](docs/activity_diagram.png)
 
 #### Sequence Diagram
 
-![](docs/sequence_diagram.png)
+![Sequence_Diagram](docs/sequence_diagram.png)
 
 #### State Diagram
 
-![](docs/state_diagram.png)
+![State_Diagram](docs/state_diagram.png)
 
 #### Class Diagram
 
-![](docs/class_diagram.png)
+![Class_Diagram](docs/class_diagram.png)
 
 
 ### 1.2 Project write-up - Libraries
