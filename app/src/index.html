@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentic Medicine</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1 style="text-align: center;">Authentic Medicine</h1>
+        <hr>
+        <p style="text-align: center;">Prove the authenticity of medicine using the Ethereum blockchain.</p>
+    </div>
+
+    <div id="ftc-develop">
+        <h2>Product Details</h2>
+        <div class="form-group">
+            SKU
+            <br>
+            <input type="number" id="sku" name="sku"><br>
+            Product Id
+            <br>
+            <input type="number" id="productId" name="productId"><br>
+            Product Name
+            <br>
+            <input type="text" id="productName" name="productName"><br>
+            Product Price
+            <br>
+            <input type="number" id="productPrice" name="productPrice">ETH<br>
+            Product Expiry(In days)
+            <br>
+            <input type="number" id="productExpiry" name="productExpiry"><br>
+            Manufactured Date
+            <br>
+            <input type="datetime" id="manufacturedDate" name="manufacturedDate">
+            <br>
+            Certification Notes
+            <br>
+            <input type="text" id="certifyNotes" name="certifyNotes"><br>
+            Manufacturer ID
+            <br>
+            <input type="text" id="manufacturerID" name="manufacturerID" value="0xf1b1bcd24dad92303dd9fe78be639f7bcf9c238d"
+                size="50">
+            <br>
+            Inspector ID
+            <br>
+            <input type="text" id="inspectorID" name="inspectorID" value="0xf1b1bcd24dad92303dd9fe78be639f7bcf9c238d"
+                size="50">
+            <br>
+            Distributor ID
+            <br>
+            <input type="text" id="distributorID" name="distributorID" value="0xf1b1bcd24dad92303dd9fe78be639f7bcf9c238d"
+                size="50">
+            <br>
+            Transporter ID
+            <br>
+            <input type="text" id="transporterID" name="transporterID" value="0xf1b1bcd24dad92303dd9fe78be639f7bcf9c238d"
+                size="50">
+            <br>
+            <button class="btn-develop" id="button" type="button" data-id="1" onclick="App.developMedicine()">Develop</button>
+            <button class="btn-certify" id="button" type="button" data-id="2" onclick="App.certifyMedicine()">Certify</button>
+            <button class="btn-manufacture" id="button" type="button" data-id="3" onclick="App.manufactureMedicine()">Manufacture</button>
+            <button class="btn-purchaseOrder" id="button" type="button" data-id="4" onclick="App.makePurchaseOrder()">Make Purchase Order</button>
+            <button class="btn-markship" id="button" type="button" data-id="5" onclick="App.markShipped()">Mark Shipped</button>
+            <button class="btn-receive" id="button" type="button" data-id="6" onclick="App.markReceived()">Receive</button>
+        </div>
+        <div class=form-break></div>
+        <h2>Product Purchase</h2>
+        <div class="form-group">
+            Consumer ID
+            <br>
+            <input type="text" id="consumerID" name="consumerID" value="0x5d777e9127b28fb119e81a6304278a0a21bef1c4"
+                size="50"><br>
+            <br>
+            <button class="btn-purchase" id="button" type="button" data-id="7" onclick="App.purchaseMedicine()">Purchase</button>
+        </div>
+        <div class=form-break></div>
+        <hr>
+    </div>
+
+    <h2>Transaction History<span id="ftc-history"></span></h2>
+    <div>
+        <ul id="ftc-events">
+            <!-- Events will appear here from app.js -->
+        </ul>
+        <br>
+        <hr>
+    </div>
+    <!-- <script src="js/web3.min.js"></script> -->
+    <script src="index.js"></script>
+</body>
+
+</html>
