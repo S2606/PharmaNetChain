@@ -38,11 +38,11 @@ If libraries are used, the project write-up discusses why these libraries were a
  - truffle v5.4.13
  - web3 v1.2.4
 
-### 1.3 IPFS
+### IPFS
 
 `IPFS was not used`
 
-### 1.4 Project write-up
+### Project write-up
 
 `Note:- Distributor/Retailer roles are not considered separate roles since they are interchangeable in nature`
 
