@@ -35,8 +35,16 @@ Choosen supply chain: Medicine
 If libraries are used, the project write-up discusses why these libraries were adopted.
 
  - node v14.4.0
+
+    Why? `well one needs a js runtime to run js code right?` 
+
  - truffle v5.4.13
+
+    Why? `well one needs development framework to develop something(in this Ethereum) right?` 
+
  - web3 v1.2.4
+
+    Why? `well one needs a way to connect to blockchain network right?` 
 
 ### IPFS
 
@@ -45,6 +53,28 @@ If libraries are used, the project write-up discusses why these libraries were a
 ### Project write-up
 
 `Note:- Distributor/Retailer roles are not considered separate roles since they are interchangeable in nature`
+
+#### Run Test cases
+
+```
+npm install
+
+truffle develop
+  
+# Compile
+truffle(develop)> compile
+
+# Test
+truffle(develop)> test
+```
+
+#### Run Front-End Code
+
+```
+cd app
+
+npm run dev
+```
 
 ### “Contract Address” and “Transaction Hash” on the Rinkeby Network
 

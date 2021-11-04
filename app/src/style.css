@@ -3,6 +3,7 @@ body {
     padding: 2em;
     font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif';
     color: #212121;
+    align-self: center;
   }
   .container {
     width: 80%;

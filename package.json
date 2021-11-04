@@ -1,0 +1,27 @@
+{
+  "name": "udnd_project3.2",
+  "version": "1.0.0",
+  "description": "### UML",
+  "main": "truffle-config.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S2606/PharmaNetChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/S2606/PharmaNetChain/issues"
+  },
+  "homepage": "https://github.com/S2606/PharmaNetChain#readme",
+  "dependencies": {
+    "truffle-hdwallet-provider": "^1.0.17",
+    "openzeppelin-solidity": "^4.3.2"
+  }
+}
