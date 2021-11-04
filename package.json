@@ -1,7 +1,7 @@
 {
-  "name": "udnd_project3.2",
+  "name": "PharmaNet Chain",
   "version": "1.0.0",
-  "description": "### UML",
+  "description": "",
   "main": "truffle-config.js",
   "directories": {
     "doc": "docs",
